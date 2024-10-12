@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}
+Welcome to kdrik.dots
+{% endblock %}
+
+{% block body %}
+<header>
+    <div class="button-left">
+        <a href="https://t.me/koyandrik" class="click-button">tg: koyandrik</a>
+        <a href="https://t.me/kdrik_logs" class="click-button">tg channel</a>
+    </div>
+
+    <h1>kdrik.fun hyprland dots</h1>
+
+    <div class="button-right">
+        <a href="{{ url_for('gallery') }}" class="click-button">Gallery</a>
+    </div>
+</header>
+
+<main>
+    <section class="introduction">
+        <h2><p><a href="https://github.com/koyandrik" class="click-button">Github</a></p></h2>
+    </section>
+    
+    <article class="config-file">
+        <div class="config-content">
+            <div class="text-content">
+                <h3>Color correction?</h3>
+                <pre><code>Pywal color (waybar/rofi/theme) for your wallpaper</code></pre>
+            </div>
+        </div>
+    </article>
+
+    <article class="config-file">
+        <div class="config-content">
+            <div class="text-content">
+                <h3>Сonvenient storage of configs</h3>
+                <pre><code>Сonfigs are easy</code></pre>
+            </div>
+        </div>
+    </article>
+
+    <article class="config-file">
+        <div class="config-content">
+            <div class="text-content">
+                <h3>Install in Github</h3>
+                <pre><code>click to github</code></pre>
+            </div>
+        </div>
+    </article>
+</main>
+
+<footer>
+</footer>
+{% endblock %}

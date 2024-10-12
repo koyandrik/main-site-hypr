@@ -13,4 +13,4 @@ def gallery():
     return render_template('gallery.html')
 
 if __name__ == "__name__":
-    app.run(debug=False,host=0.0.0.0)
+    app.run(debug=False)
